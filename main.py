@@ -21,4 +21,5 @@ async def on_ready():
     print(f"Logged in as {bot.user} and synced commands")
 
 
-bot.run(DISCORD_BOT_TOKEN)
+if __name__ == "__main__":
+    bot.run(DISCORD_BOT_TOKEN)
