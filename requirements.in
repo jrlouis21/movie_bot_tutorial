@@ -1,0 +1,4 @@
+pip-tools
+discord.py
+python-dotenv
+requests
